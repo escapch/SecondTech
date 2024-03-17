@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px 0;
+  .main {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+
+    
+  }
+}
+
+

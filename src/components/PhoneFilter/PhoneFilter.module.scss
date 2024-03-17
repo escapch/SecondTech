@@ -1,0 +1,73 @@
+.root {
+  .accord {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #fff;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+          font-size: 22px;
+          font-weight: 400;
+        }
+      }
+
+      .content {
+      }
+
+      .li_wrap {
+        .price_input {
+          display: flex;
+          justify-content: space-between;
+
+          div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+
+          input {
+            padding: 10px 5px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            background: #fff;
+            width: 80%;
+          }
+        }
+      }
+
+      .color_input {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        div {
+          padding: 0 20px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+[class*='_wrap'] {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,22 @@
+.image_wrapper {
+  width: 50%;
+
+  .image__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gallery {
+    div {
+      .slide {
+        width: 100%;
+        height: 560px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

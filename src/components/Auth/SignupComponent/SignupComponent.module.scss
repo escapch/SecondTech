@@ -1,0 +1,37 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+  width: 100%;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    p {
+      font-size: 32px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    .password__input {
+      position: relative;
+      input {
+        padding-right: 48px;
+      }
+      svg {
+        position: absolute;
+        top: 20%;
+        right: 1%;
+        cursor: pointer;
+      }
+    }
+  }
+}

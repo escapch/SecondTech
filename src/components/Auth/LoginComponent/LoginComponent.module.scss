@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    button {
+      margin-top: 40px;
+    }
+    .password__input {
+      position: relative;
+      input {
+        padding-right: 48px;
+      }
+      svg {
+        position: absolute;
+        top: 20%;
+        right: 1%;
+        cursor: pointer;
+      }
+    }
+  }
+}

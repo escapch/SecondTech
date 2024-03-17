@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 25px;
+      grid-row-gap: 30px;
+    }
+    text-align: center;
+  }
+}

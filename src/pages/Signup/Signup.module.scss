@@ -1,0 +1,16 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+  padding: 130px 0;
+
+  .login__content {
+    display: flex;
+    justify-self: center;
+    width: 345px;
+    height: 100%;
+  }
+}

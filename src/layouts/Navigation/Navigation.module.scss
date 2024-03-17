@@ -1,0 +1,19 @@
+.root {
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  a { 
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 30px;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      border-radius: 0px 12px 0px 0px;
+      background: #000;
+      color: #fff;
+    }
+  }
+}

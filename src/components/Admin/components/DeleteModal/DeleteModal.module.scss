@@ -1,0 +1,27 @@
+.box {
+  background: #fff;
+  width: 40%;
+  margin: 10% auto;
+  border-radius: 4%;
+  overflow: hidden;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  img {
+    width: 40%;
+  }
+
+  .cancelBtn {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

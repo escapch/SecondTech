@@ -1,0 +1,14 @@
+.root {
+  svg {
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  svg:hover {
+    stroke: #a7a6aa;
+    fill: #a7a6aa;
+  }
+
+  .ant-popover-content {
+    cursor: pointer;
+  }
+}
